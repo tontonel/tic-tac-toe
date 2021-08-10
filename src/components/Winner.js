@@ -18,7 +18,7 @@ export default function Winner ({handelButton}) {
     return () => {
       if (togglePlayer == winner)
         setPlayer1Score (prev => prev + 1);
-      else 
+      else if (winner !== 2)
         setPlayer2Score (prev => prev + 1);
     }
   }, [])
