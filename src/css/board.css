@@ -1,0 +1,19 @@
+.board {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding: none;
+    margin-top: 2rem;
+  }
+.board-row{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    width: 70%;
+  }
+
+  @media screen and (max-width: 480px) {
+    .board {
+      margin-top: 25vh;
+    }
+  }

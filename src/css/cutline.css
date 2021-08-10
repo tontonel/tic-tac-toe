@@ -1,0 +1,17 @@
+.board-cutline {
+    background: black;
+    border-radius: 15px 20px 20px 15px;
+    height: 25px;
+    position: absolute;
+    /* left: -webkit-calc(50% + 200px);
+    top: 0px;
+    transform-origin: left;
+    transform: rotate(90deg); */
+    background: red;
+}
+
+@media screen and (max-width: 480px) {
+    .board-cutline {
+        height: 15px;
+    }
+  }

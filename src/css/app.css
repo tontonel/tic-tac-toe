@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
+@import "./box.css";
+@import "./board.css";
+@import "./font.css";
+@import "./cutline.css";
+@import "./winner.css";
+@import "./noSelect.css";
+@import "./button.css";
+@import "./score.css";
+@import "./startPage.css";
+
+*, *::after, *::before {
+  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
+}
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+.start-page {
+    margin: auto;
+    margin-top: 30vh;
+    text-align: center;
+}
+.start-page-font-player-name {
+    font-weight: 400;
+    color: rgb(21, 121, 179);
+    margin-right: 3rem;
+}
+
+.start-page-font-player-selection {
+    font-weight: 1000;
+    color: rgb(21, 121, 179);
+    font-size: 3rem;
+}
+
+.start-page-font-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

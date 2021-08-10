@@ -1,0 +1,57 @@
+.box {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 10px black;
+  cursor: pointer;
+}
+.box1 {
+    border-top: 0px;
+    border-left: 0px;
+  }
+.box2 {
+  border-top: 0px;
+  border-left: 0px;
+}
+.box3 {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+.box4 {
+  border-top: 0px;
+  border-left: 0px;
+}
+.box5 {
+  border-top: 0px;
+  border-left: 0px;
+}
+.box6 {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.box7 {
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+.box8 {
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+.box9 {
+  border: none;
+}
+@media screen and (max-width: 480px) {
+  .box {
+    height: 100px;
+    width: 100px;
+    min-width: 100px;
+  }
+}

@@ -1,0 +1,20 @@
+h1 {
+    font-weight: 500;
+    font-size: 200px;
+    color: blue;
+    padding: none;
+    margin: none;
+    padding-bottom: 3rem;
+
+}
+
+h2 {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 100px;
+    padding-bottom: 1rem;
+  }
+}
