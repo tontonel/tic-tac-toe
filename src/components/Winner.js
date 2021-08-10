@@ -29,7 +29,7 @@ export default function Winner ({handelButton}) {
         <div className = "winner-text">
           {winner == togglePlayer ? 
           <h2>The winner is Player1</h2> : 
-          <h2>The winner is Player2</h2>} 
+          winner !== 2 && <h2>The winner is Player2</h2>} 
           {winner === 2 && 
           <h2>It's a draw </h2>}
         </div>
