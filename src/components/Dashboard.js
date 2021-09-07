@@ -34,6 +34,7 @@ export default function (props) {
       if (counter === 8) {
         setCounter(0);
         setWinner(2);
+        setCurr(togglePlayer);
       }
     }
   }

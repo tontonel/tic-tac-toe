@@ -41,6 +41,7 @@ export default function Game() {
   function handelButton() {
     setWinner(-1);
     setBoard([-1, -1, -1, -1, -1, -1, -1, -1, -1]);
+    
   }
 
   return (
